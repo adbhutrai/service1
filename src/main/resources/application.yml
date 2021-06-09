@@ -1,4 +1,4 @@
+spring:  application:    name: backend-service
 server:
-  port: 8080
-  servlet-path: /
-
+  port: 8080management:  metrics:    tags:      application: backend  endpoints:    web:      exposure:        include: "*"springdoc:  api-docs:    path: "/api-docs"
+opentracing:  jaeger:    log-spans: false
