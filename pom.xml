@@ -8,7 +8,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<!-- <version>1.5.4.RELEASE</version> -->
 		<version>2.5.0</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>hello</groupId>
 	<artifactId>service1</artifactId>
@@ -45,7 +45,7 @@
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
-			<version>1.5.2</version>
+			<version>1.7.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -55,7 +55,7 @@
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
-			<version>1.5.2</version>
+			<version>1.7.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
